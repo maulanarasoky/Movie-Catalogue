@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="get_the_ticket">Get The Ticket</string>
+    <string name="release_date">Release Date</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="directed_by">Directed By</string>
+    <string name="produced_by">Produced By</string>
+    <string name="screenplay_by">Screenplay By</string>
+    <string name="based_on">Based On</string>
+    <string name="starring">Starring</string>
+    <string name="cinematography">Cinematography</string>
+    <string name="edited_by">Edited By</string>
+    <string name="production_companies">Production Companies</string>
+    <string name="distributed_by">Distributed By</string>
+    <string name="running_time">Running Time</string>
+    <string name="ratings">Ratings</string>
+
+    <string-array name="data_title">
+        <item>Avengers: Infinity Wars</item>
+        <item>Deadpool</item>
+        <item>Dragon Ball Super: Broly</item>
+        <item>Venom</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>Avengers: End Game</item>
+        <item>Guardians Of The Galaxy Vol. 1</item>
+        <item>Spider-Man: Far From Home</item>
+        <item>One Piece Film: Z</item>
+        <item>Kimi No Nawa</item>
+    </string-array>
+
+    <string-array name="ratings">
+        <item>8,5 / 10</item>
+        <item>8,0 / 10</item>
+        <item>8,0 / 10</item>
+        <item>8,0 / 10</item>
+        <item>8,5 / 10</item>
+        <item>8,7 / 10</item>
+        <item>8,1 / 10</item>
+        <item>8,1 / 10</item>
+        <item>8,0 / 10</item>
+        <item>8,4 / 10</item>
+    </string-array>
+
+    <string-array name="directed_by">
+        <item>Anthony Russo\nJoe Russo</item>
+        <item>Tim Miller</item>
+        <item>Tatsuya Nagamine</item>
+        <item>Ruben Fleischer</item>
+        <item>Bob Persichetti\nPeter Ramsey\nRodney Rothman</item>
+        <item>Anthony Russo\nJoe Russo</item>
+        <item>James Gunn</item>
+        <item>Jon Watts</item>
+        <item>Tatsuya Nagamine</item>
+        <item>Makoto Shinkai</item>
+    </string-array>
+
+    <string-array name="produced_by">
+        <item>Kevin Feige</item>
+        <item>Simon Kinberg\nRyan Reynolds\nLauren Shuler Donner</item>
+        <item>Toei Animation</item>
+        <item>Avi Arad\nMatt Tolmach\nAmy Pascal</item>
+        <item>Avi Arad\nAmy Pascal\nPhil Lord\nChristoper Miller\n Christoper Steinberg</item>
+        <item>Kevin Feige</item>
+        <item>Kevin Feige</item>
+        <item>Kevin Feige\nAmy Pascal</item>
+        <item>Yoshihiko Taneda\nMakoto Seino</item>
+        <item>Noritaka Kawaguchi\nGenki Kawamura</item>
+    </string-array>
+
+    <string-array name="screenplay">
+        <item>Christopher Markus\nStephen McFeely</item>
+        <item>-</item>
+        <item>Akira Toriyama</item>
+        <item>Jeff Pinkner\nScott Rosenberg\nKelly Marcel</item>
+        <item>Phil Lord\nRodney Rothman</item>
+        <item>Christopher Markus\nStephen McFeely</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Osamu Suzuki</item>
+        <item>Makoto Shinkai</item>
+    </string-array>
+
+    <string-array name="based_on">
+        <item>The Avengers\nby Stan Lee\nJack Kirby</item>
+        <item>Deadpool\nby Fabian Nicieza, Rob Liefeld</item>
+        <item>Dragon Ball\nby Akira Toriyama</item>
+        <item>Venom\nby Todd McFarlane, David Michelinie</item>
+        <item>Spider-Man\nby Stan Lee</item>
+        <item>The Avengers\nby Stan Lee\nJack Kirby</item>
+        <item>Guardians of the Galaxy\nbyDan Abnett, Andy Lanning</item>
+        <item>Spider-Man\nby Stan Lee, Steve Ditko</item>
+        <item>	One Piece\nby Eiichiro Oda</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="starring">
+        <item>Robert Downey Jr.\nChris Hemsworth\nMark Ruffalo\nChris Evans\nScarlett Johansson\nBenedict Cumberbatch\nDon Cheadle\nTom Holland\nChadwick Boseman\nPaul Bettany\nElizabeth Olsen\nAnthony Mackie\nSebastian Stan\nDanai Gurira\nLetitia Wright\nDave Bautista\nZoe Saldana\nJosh Brolin\nChris Pratt</item>
+        <item>Ryan Reynolds\nMorena Baccarin\nEd Skrein\nT. J. Miller\nGina Carano\nBrianna Hildebrand</item>
+        <item>Masako Nozawa\nRyō Horikawa\nBin Shimada\nRyūsei Nakao\nAya Hisakawa\nToshio Furukawa\nTakeshi Kusao\nKōichi Yamadera\nMasakazu Morita\nKatsuhisa Hōki</item>
+        <item>Tom Hardy\nMichelle Williams\nRiz Ahmed\nScott Haze\nReid Scott</item>
+        <item>Shameik Moore\nJake Johnson\nHailee Steinfeld\nMahershala Ali\nBrian Tyree Henry\nLily Tomlin\nLuna Lauren Velez\nJohn Mulaney\nKimiko Glenn\nNicolas Cage\nLiev Schreiber</item>
+        <item>Robert Downey Jr.\nChris Hemsworth\nMark Ruffalo\nChris Evans\nScarlett Johansson\nBenedict Cumberbatch\nDon Cheadle\nTom Holland\nChadwick Boseman\nPaul Bettany\nElizabeth Olsen\nAnthony Mackie\nSebastian Stan\nDanai Gurira\nLetitia Wright\nDave Bautista\nZoe Saldana\nJosh Brolin\nChris Pratt</item>
+        <item>Chris Pratt\nZoe Saldana\nDave Bautista\nVin Diesel\nBradley Cooper\nLee Pace\nMichael Rooker\nKaren Gillan\nDjimon Hounsou\nJohn C. Reilly\nGlenn Close\nBenicio del Toro</item>
+        <item>Tom Holland\nSamuel L. Jackson\nZendaya\nCobie Smulders\nJon Favreau\nJ. B. Smoove\nJacob Batalon\nMartin Starr\nMarisa Tomei\nJake Gyllenhaal</item>
+        <item>Mayumi Tanaka\nKazuya Nakai\nAkemi Okamura\nKappei Yamaguchi\nHiroaki Hirata\nIkue Ohtani\nYuriko Yamaguchi\nKazuki Yao\nChō\nHōchū Ōtsuka\nRyoko Shinohara\nTeruyuki Kagawa</item>
+        <item>Ryunosuke Kamiki\nMone Kamishiraishi\nRyo Narita\nAoi Yūki\nNobunaga Shimazaki\nKaito Ishikawa\nKanon Tani\nMasami Nagasawa\nEtsuko Ichihara</item>
+    </string-array>
+
+    <string-array name="music_by">
+        <item>Alan Silvestri</item>
+        <item>Tom Holkenborg</item>
+        <item>Norihito Sumitomo</item>
+        <item>Ludwig Göransson</item>
+        <item>Daniel Pemberton</item>
+        <item>Alan Silvestri</item>
+        <item>Tyler Bates</item>
+        <item>Michael Giacchino</item>
+        <item>Kohei Tanaka\nShirō Hamaguchi</item>
+        <item>Radwimps</item>
+    </string-array>
+
+    <string-array name="cinematography">
+        <item>Trent Opaloch</item>
+        <item>Ken Seng</item>
+        <item>-</item>
+        <item>Matthew Libatique</item>
+        <item>-</item>
+        <item>Trent Opaloch</item>
+        <item>Ben Davis</item>
+        <item>Matthew J. Lloyd</item>
+        <item>Takeo Ogiwara</item>
+        <item>Makoto Shinkai</item>
+    </string-array>
+
+    <string-array name="edited_by">
+        <item>Jeffrey Ford\nMatthew Schmidt</item>
+        <item>Julian Clarke</item>
+        <item>-</item>
+        <item>Maryann Brandon\nAlan Baumgarten</item>
+        <item>Robert Fisher Jr.</item>
+        <item>Jeffrey Ford\nMatthew Schmidt</item>
+        <item>Fred Raskin\nCraig Wood\nHughes Winborne</item>
+        <item>Dan Lebental\nLeigh Folsom-Boyd</item>
+        <item>Nobuhiro Maki</item>
+        <item>Makoto Shinkai</item>
+    </string-array>
+
+    <string-array name="production_companies">
+        <item>Marvel Studios</item>
+        <item>Marvel Entertainment\nKinberg Genre\nThe Donners\' Company\nTSG Entertainment</item>
+        <item>Toei Animation</item>
+        <item>Columbia Pictures\nMarvel Entertainment\nTencent Pictures\nArad Productions\nMatt Tolmach Productions\nPascal Pictures</item>
+        <item>Columbia Pictures\nSony Pictures Animation\nMarvel Entertainment\nArad Productions\nLord Miller Productions\nPascal Pictures</item>
+        <item>Marvel Studios</item>
+        <item>Marvel Studios</item>
+        <item>Columbia Pictures\nMarvel Studios\nPascal Pictures</item>
+        <item>Toei Animation</item>
+        <item>CoMix Wave Films</item>
+    </string-array>
+
+    <string-array name="distributed_by">
+        <item>Walt Disney Studios\nMotion Pictures</item>
+        <item>	20th Century Fox</item>
+        <item>Toei Company\n20th Century Fox Japan</item>
+        <item>Sony Pictures Releasing</item>
+        <item>Sony Pictures Releasing</item>
+        <item>Walt Disney Studios\nMotion Pictures</item>
+        <item>Walt Disney Studios\nMotion Pictures</item>
+        <item>Sony Pictures Releasing</item>
+        <item>Toei Company</item>
+        <item>Toho</item>
+    </string-array>
+
+    <string-array name="running_time">
+        <item>149 minutes</item>
+        <item>108 minutes</item>
+        <item>100 minutes</item>
+        <item>112 minutes</item>
+        <item>117 minutes</item>
+        <item>181 minutes</item>
+        <item>122 minutes</item>
+        <item>129 minutes</item>
+        <item>107 minutes</item>
+        <item>107 minutes</item>
+    </string-array>
+
+    <string-array name="release_date">
+        <item>April 25, 2018</item>
+        <item>February 10, 2016</item>
+        <item>February 16, 2019</item>
+        <item>October 03, 2018</item>
+        <item>December 12, 2018</item>
+        <item>April 26, 2019</item>
+        <item>July 21, 2014</item>
+        <item>July 02, 2019</item>
+        <item>December 15, 2012</item>
+        <item>August 26, 2016</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+        <item>Wade Wilson is a dishonorably discharged special forces operative working as a mercenary when he meets Vanessa, a prostitute. They become romantically involved, and a year later she accepts his marriage proposal. Wilson is diagnosed with terminal cancer, and leaves Vanessa without warning so she will not have to watch him die.</item>
+        <item>Set after the events of the Universe Survival Saga depicted in Dragon Ball Super, the film follows series protagonists Goku and Vegeta as they encounter a powerful Saiyan named Broly. In the beginning, it tells the history of the Saiyans and the background story of these three Saiyans with different destinies connected to the turbulent period of their race, and later resulting in a massive fight between them</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+        <item>Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson \"Kingpin\" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.</item>
+        <item>Twenty-three days after Thanos used the Infinity Gauntlet to disintegrate half of all life in the universe, Carol Danvers rescues Tony Stark and Nebula from deep space and returns them to Earth. They reunite with the remaining Avengers—Bruce Banner, Steve Rogers, Thor, Natasha Romanoff, and James Rhodes—and Rocket, and they find Thanos on an otherwise uninhabited planet. They plan to retake and use the Infinity Stones to reverse the disintegrations, but Thanos reveals he destroyed them to prevent further use. An enraged Thor decapitates Thanos.</item>
+        <item>In 1988, following his mother\'s death, a young Peter Quill is abducted from Earth by the Ravagers, a group of alien thieves and smugglers led by Yondu Udonta. Twenty-six years later on the planet Morag, Quill steals a mysterious orb but is attacked by Korath, a subordinate to the fanatical Kree militant, Ronan. Although Quill escapes with the orb, Yondu discovers his theft and issues a bounty for his capture, while Ronan sends the assassin Gamora after the orb.</item>
+        <item>In Ixtenco, Nick Fury and Maria Hill investigate an unnatural storm and later encounter the Earth Elemental. A super-powered man, Quentin Beck, arrives to fight the creature. Eight months later, in New York City, the Midtown School of Science and Technology restarts its academic year to accommodate the students who were among those resurrected in the Blip. The school organizes a two-week summer field trip to Europe, where Peter Parker, still distraught over Tony Stark\'s death, plans to confess his growing feelings for classmate MJ and avoid heroics. At a fundraiser for the homeless coordinated by his Aunt May, Parker is forewarned by Happy Hogan that he will be contacted by Nick Fury, but Parker chooses to ignore the call. Parker leaves after being overwhelmed by questions about Stark.</item>
+        <item>"Black Arm" Zephyr (黒腕のゼファー Kokuwan no Zefā), a former naval admiral and leader of the Neo Marines which also includes his henchmen Ain (アイン) and Binz (ビンズ Binzu), commences an assault on the navy on Firs Island, a volcanic island and one of the End Points. While there, Zephyr steals the Dyna Stones and fights Kizaru before he starts an eruption to defeat the Admiral only to be sent flying into the ocean. While having a cherry blossom party, the Straw Hat Pirates discovers and heals Zephyr. When Zephyr learns that Monkey D. Luffy is a pirate, he fights Luffy, Roronoa Zoro and Sanji. Having discovered Zephyr\'s location with a Vivre Card, Ain and Binz join the ex-Admiral to fight them. Ain uses her Devil Fruit powers to de-age Nami, Tony Tony Chopper, Brook and Nico Robin, while Binz uses his Devil Fruit powers to trap Franky, Usopp and Brook with vines. Realizing that Luffy is the grandson of Monkey D. Garp, Zephyr attempts to kill them, but the Straw Hats are forced to flee. At Marine Headquarters, the navy discovers Zephyr\'s whereabouts and decide to recover the Dyna Stones.</item>
+        <item>High school girl Mitsuha Miyamizu lives in the fictional town of Itomori in Japan\'s mountainous Hida region. She is bored with the country life, and wishes to be a handsome boy in her next life. She begins switching bodies intermittently with Taki Tachibana, a high school boy in Tokyo, when they wake up. They communicate by writing messages on paper, their phones, and sometimes on each other\'s skin. Mitsuha causes Taki to develop a relationship with his coworker Miki, while Taki causes Mitsuha to become popular in school.</item>
+    </string-array>
+
+    <string-array name="data_poster">
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_venom</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_avengersendgame</item>
+        <item>@drawable/poster_guardian</item>
+        <item>@drawable/poster_spiderman_far_from_home</item>
+        <item>@drawable/poster_one_piece_z</item>
+        <item>@drawable/poster_kimi_no_nawa</item>
+    </string-array>
+</resources>

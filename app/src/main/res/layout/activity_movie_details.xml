@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MovieDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_photo"
+                    android:layout_width="160dp"
+                    android:layout_height="220dp"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/the_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="81dp"
+                    android:layout_marginTop="140dp"
+                    android:background="#8C000000"
+                    android:fontFamily="@font/firasans"
+                    android:gravity="center_horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="17dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="17dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp">
+
+                <TextView
+                    android:id="@+id/text_ratings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/firasans"
+                    android:text="@string/ratings"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_ratings"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/text_ratings"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:background="@drawable/rating"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/ratings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_ratings"
+                    android:layout_marginTop="23dp"
+                    android:fontFamily="@font/firasans"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/get_ticket"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ratings"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:text="@string/get_the_ticket"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/firasans"
+                    android:text="@string/directed_by"
+                    android:textSize="14sp" />
+
+                <TextView android:text=": " />
+
+                <TextView
+                    android:id="@+id/directed_by"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16sp"
+                    android:fontFamily="@font/firasans"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/firasans"
+                    android:text="@string/produced_by"
+                    android:textSize="14sp" />
+
+                <TextView android:text=": " />
+
+                <TextView
+                    android:id="@+id/produced_by"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16sp"
+                    android:fontFamily="@font/firasans"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/firasans"
+                    android:text="@string/screenplay_by"
+                    android:textSize="14sp" />
+
+                <TextView android:text=": " />
+
+                <TextView
+                    android:id="@+id/screenplay_by"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16sp"
+                    android:fontFamily="@font/firasans"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/firasans"
+                    android:text="@string/based_on"
+                    android:textSize="14sp" />
+
+                <TextView android:text=": " />
+
+                <TextView
+                    android:id="@+id/based_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16sp"
+                    android:fontFamily="@font/firasans"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/firasans"
+                    android:text="@string/starring"
+                    android:textSize="14sp" />
+
+                <TextView android:text=": " />
+
+                <TextView
+                    android:id="@+id/starring"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16sp"
+                    android:fontFamily="@font/firasans"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/firasans"
+                    android:text="Music By"
+                    android:textSize="14sp" />
+
+                <TextView android:text=": " />
+
+                <TextView
+                    android:id="@+id/music_by"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16sp"
+                    android:fontFamily="@font/firasans"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/firasans"
+                    android:text="@string/cinematography"
+                    android:textSize="14sp" />
+
+                <TextView android:text=": " />
+
+                <TextView
+                    android:id="@+id/cinematography"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16sp"
+                    android:fontFamily="@font/firasans"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/firasans"
+                    android:text="@string/edited_by"
+                    android:textSize="14sp" />
+
+                <TextView android:text=": " />
+
+                <TextView
+                    android:id="@+id/edited_by"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16sp"
+                    android:fontFamily="@font/firasans"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/firasans"
+                    android:text="@string/production_companies"
+                    android:textSize="14sp" />
+
+                <TextView android:text=": " />
+
+                <TextView
+                    android:id="@+id/production_companies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16sp"
+                    android:fontFamily="@font/firasans"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/firasans"
+                    android:text="@string/distributed_by"
+                    android:textSize="14sp" />
+
+                <TextView android:text=": " />
+
+                <TextView
+                    android:id="@+id/distributed_by"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16sp"
+                    android:fontFamily="@font/firasans"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/firasans"
+                    android:text="@string/running_time"
+                    android:textSize="14sp" />
+
+                <TextView android:text=": " />
+
+                <TextView
+                    android:id="@+id/running_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16sp"
+                    android:fontFamily="@font/firasans"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:fontFamily="@font/firasans"
+                    android:text="@string/release_date"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_marginRight="8dp"
+                    android:text=": " />
+
+                <TextView
+                    android:id="@+id/release_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/firasans"
+                    android:textSize="14sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/firasans"
+            android:text="@string/synopsis"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/firasans"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="8dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>
